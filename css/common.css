@@ -1,0 +1,401 @@
+@charset "utf-8";
+/*-----FONT-----*/
+@font-face{
+	font-family: mycontentfont;
+	src: url('../fonts/utm-avo.eot'),
+		 url('../fonts/utm-avo.ttf'),
+		 url('../fonts/utm-avo.woff');
+}
+@font-face{
+	font-family: mytitlefont;
+	src: url('../fonts/utm-avobold.eot'),
+		 url('../fonts/utm-avobold.ttf'),
+		 url('../fonts/utm-avobold.woff');
+}
+
+/*-----FORMAT-----*/
+body{
+	font-family: mycontentfont;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(220, 220, 220);
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: mytitlefont;
+}
+
+/*------LARGE PC-----*/
+@media (min-width: 1200px){
+	#bgheader{
+		height: 60px;
+		padding: 0;
+		margin: 0;
+		border-bottom: 1px solid rgb(154, 154, 154);
+		position: sticky;
+		top: 0;
+		z-index: 999;
+		background-color: #fff;
+	}
+	#navigation{
+		height: 60px;
+	}
+	#logo{
+		height: 60px;
+	}
+	#logo a img{
+		height: 40px;
+		width: 233px;
+		margin-top: 10px;
+	}
+	#navi {
+		height: 60px;
+		padding: 0;
+	}
+	#navi ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+	#navi ul li{
+		display: block;
+		float: right;
+		margin-top: 15px;
+	}
+	#navi ul li a{
+		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: #2b8842;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+		transition: all ease .5s;
+	}
+	#navi ul li a:hover{
+		color: #b80e0e;
+		transition: all ease .5s;
+	}
+	
+	/*------------THUONG HIEU------------*/
+	#thuonghieu hr{
+		margin-top: 50px;
+		color: rgb(155, 155, 155);
+	}
+	.tenthuonghieu img{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	/*----------CONTACT-----------*/
+	#bg_contact{
+		margin-top: 30px;
+		padding-bottom: 15px;
+		background-color: #fff;
+	}
+	#bg_contact hr{
+		border: 1px solid gray;
+	}
+	#contact{
+		margin-top: 30px;
+	}
+	#contact p{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	#chinhsach p{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	#btn_dangky{
+		margin-top: 20px;
+		font-size: 20px;
+		color: white;
+		background-color: #2b8842;
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+	}
+	#btn_dangky:hover{
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+		background-color: red;
+	}
+	/*------------FOOTER-------------*/
+	#footer{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 15px;
+		font-weight: bold;
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*------MEDIUM PC-----*/
+@media (min-width: 992px) and (max-width: 1199px){
+	#bgheader{
+		height: 60px;
+		padding: 0;
+		margin: 0;
+		border-bottom: 1px solid rgb(154, 154, 154);
+		position: sticky;
+		top: 0;
+		z-index: 999;
+		background-color: #fff;
+	}
+	#navigation{
+		height: 60px;
+	}
+	#logo{
+		height: 60px;
+	}
+	#logo a img{
+		margin-top: 20px;
+	}
+	#navi {
+		height: 60px;
+		padding: 0;
+	}
+	#navi ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+	#navi ul li{
+		display: block;
+		float: right;
+		margin-top: 20px;
+	}
+	#navi ul li a{
+		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: #2b8842;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		transition: all ease .5s;
+	}
+	#navi ul li a:hover{
+		color: #b80e0e;
+		transition: all ease .5s;
+	}
+	
+	/*------------THUONG HIEU------------*/
+	#thuonghieu hr{
+		margin-top: 30px;
+		color: rgb(155, 155, 155);
+	}
+	/*----------CONTACT-----------*/
+	#bg_contact{
+		margin-top: 30px;
+		padding-bottom: 15px;
+		background-color: #fff;
+	}
+	#bg_contact hr{
+		border: 1px solid gray;
+	}
+	#contact{
+		margin-top: 30px;
+	}
+	#contact p, #chinhsach p{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	#btn_dangky{
+		margin-top: 20px;
+		font-size: 20px;
+		color: white;
+		background-color: #2b8842;
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+	}
+	#btn_dangky:hover{
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+		background-color: red;
+	}
+	/*------------FOOTER-------------*/
+	#footer{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 15px;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/*------TABLET-----*/
+@media (min-width: 768px) and (max-width: 991px){
+	/*-----------MENU DROPDOWN-----------*/
+	
+	/*------------THUONG HIEU------------*/
+	#thuonghieu hr{
+		margin-top: 30px;
+		color: rgb(155, 155, 155);
+	}
+	#bg_contact{
+		margin-top: 30px;
+		padding-bottom: 15px;
+		background-color: #fff;
+	}
+	#bg_contact hr{
+		border: 1px solid gray;
+		position: relative;
+		left: 50%;
+		margin-left: -75px;
+	}
+	#contact{
+		margin-top: 30px;
+	}
+	#contact img{
+		position: relative;
+		left: 50%;
+		margin-left: -175px;
+	}
+	#contact p, #chinhsach p{
+		font-size: 14px;
+		line-height: 25px;
+		text-align: center;
+	}
+	#chinhsach h2, #dangky h2{
+		text-align: center;
+	}
+	#dangky input{
+		width: 225px;
+		z-index: 5;
+		position: relative;
+		left: 50%;
+		margin-left: -112.5px;
+		border: 1px solid gray;
+		padding: 10px;
+	}
+	#btn_dangky{
+		width: 150px;
+		position: relative;
+		left: 50%;
+		margin-left: -75px;
+		display: block;
+		margin-top: 20px;
+		font-size: 20px;
+		color: white;
+		background-color: #2b8842;
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+	}
+	#btn_dangky:hover{
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+		background-color: red;
+	}
+	/*------------FOOTER-------------*/
+	#footer{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 15px;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/*------MOBILE-----*/
+@media (max-width: 767px){
+	/*------------THUONG HIEU------------*/
+	#thuonghieu hr{
+		margin-top: 30px;
+		color: rgb(155, 155, 155);
+	}
+	.tenthuonghieu img{
+		width: 182.5px;
+	}
+	#bg_contact{
+		margin-top: 30px;
+		padding-bottom: 15px;
+		background-color: #fff;
+	}
+	#bg_contact hr{
+		border: 1px solid gray;
+		position: relative;
+		left: 50%;
+		margin-left: -75px;
+	}
+	#contact{
+		margin-top: 30px;
+	}
+	#contact img{
+		position: relative;
+		left: 50%;
+		margin-left: -175px;
+	}
+	#contact p, #chinhsach p{
+		font-size: 14px;
+		line-height: 25px;
+		text-align: center;
+	}
+	#chinhsach h2, #dangky h2{
+		text-align: center;
+	}
+	#dangky input{
+		width: 225px;
+		z-index: 5;
+		position: relative;
+		left: 50%;
+		margin-left: -112.5px;
+		border: 1px solid gray;
+		padding: 10px;
+	}
+	#btn_dangky{
+		width: 150px;
+		position: relative;
+		left: 50%;
+		margin-left: -75px;
+		display: block;
+		margin-top: 20px;
+		font-size: 20px;
+		color: white;
+		background-color: #2b8842;
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+	}
+	#btn_dangky:hover{
+		transition: all ease .5s	;
+		-webkit-transition: all ease .5s	;
+		-moz-transition: all ease .5s	;
+		-ms-transition: all ease .5s	;
+		-o-transition: all ease .5s	;
+		background-color: red;
+	}
+	/*------------FOOTER-------------*/
+	#footer{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 15px;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+	}
+}
+

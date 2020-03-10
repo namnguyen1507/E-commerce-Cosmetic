@@ -1,0 +1,1037 @@
+
+
+/*------LARGE PC-----*/
+@media (min-width: 1200px) {
+    /*-------------banner--------------*/
+    #bgbanner {
+        background-color: #fff;
+    }
+    #banner {
+        position: relative;
+        z-index: 1;
+    }
+    #contentbox_muangay {
+        position: absolute;
+        z-index: 2;
+        top: 250px;
+        left: 130px;
+    }
+    #btnmuangay {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        transition: all ease .5s;
+    }
+    #btnmuangay:hover {
+        background-color: #d30606;
+        transition: all ease .5s;
+    }
+    /*-------------loai san pham---------------*/
+    #loaisanpham {
+        margin-top: 50px;
+    }
+    #LoaiSP2,
+    #LoaiSP5 {
+        margin-bottom: 30px;
+    }
+    #LoaiSP1 img,
+    #LoaiSP2 img,
+    #LoaiSP3 img,
+    #LoaiSP4 img,
+    #LoaiSP5 img,
+    #LoaiSP6 img {
+        transition: all ease .5s;
+    }
+    #LoaiSP1 img:hover,
+    #LoaiSP2 img:hover,
+    #LoaiSP3 img:hover,
+    #LoaiSP4 img:hover,
+    #LoaiSP5 img:hover,
+    #LoaiSP6 img:hover {
+        transform: scale(1.05);
+        transition: all ease .5s;
+        box-shadow: 0px 0px 3px 5px rgba(137, 137, 137, 0.667);
+        z-index: 999;
+        position: relative;
+    }
+    /*----------------SAN PHAM MOI--------------------*/
+    #spmoi h1 {
+        height: 40px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #bgspm a {
+        text-decoration: none;
+    }
+    .sp_moi_box {
+        width: 262.5px;
+        padding: 0px !important;
+        margin: 15px;
+    }
+    .sanphammoi {
+        background-color: #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        transition: all ease .5s;
+    }
+    .sanphammoi h5 {
+        color: black;
+    }
+    .news {
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        left: 15px;
+        background-color: #2b8842;
+        color: white;
+    }
+    .sanphammoi ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    .sanphammoi ul li {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        ;
+        color: #2b8842;
+    }
+    .sanphammoi ul li:hover {
+        color: red;
+    }
+    .sanphammoi p {
+        color: black;
+        clear: left;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .sanphammoi:hover {
+        transform: scale(1.05);
+        transition: all ease .5s;
+        box-shadow: 0px 0px 3px 5px rgba(137, 137, 137, 0.667);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+    }
+    /*--------------SALE----------------*/
+    #bgsale {
+        margin-top: 30px;
+        background-color: #fff;
+    }
+    #sale {
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        height: 250px;
+    }
+    #sale h1 {
+        width: 100%;
+        text-align: center;
+        color: #2b8842;
+    }
+    #sale ul {
+        padding: 0;
+        list-style-type: none;
+        position: relative;
+        left: 50%;
+        margin-left: -25%;
+    }
+    #sale ul li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+    #sale ul li p {
+        font-weight: bold;
+        border: 1px solid gray;
+        font-size: 15px;
+        float: left;
+        color: #2b8842;
+        padding: 5px 10px;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    #btnsale {
+        display: block;
+        width: 150px;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        position: relative;
+        left: 50%;
+        margin-left: -75px;
+    }
+    #btnsale:hover {
+        background-color: #d30606;
+        transition: all ease .5s;
+    }
+    #salebanner {
+        padding: 0;
+        margin: 0;
+    }
+    #salebanner img {
+        width: 100%;
+        height: 100%;
+    }
+    /*----------SAN PHAM HOT-----------*/
+    #bg_sp_hot {
+        margin-top: 30px;
+    }
+    #sp_hot_title {
+        position: relative;
+        width: 262.5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #sp_hot_title h3 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+    #sp_hot_title p {
+        width: 100%;
+        position: relative;
+        top: 120px;
+        text-align: center;
+    }
+    /*-----------BANNER QUANG CAO--------------*/
+    #banner_quangcao {
+        margin-top: 30px;
+    }
+    #banner2 {
+        margin-bottom: 30px;
+    }
+    #banner1 img,
+    #banner2 img,
+    #banner3 img {
+        transition: all ease .5s;
+    }
+    #banner1 img:hover,
+    #banner2 img:hover,
+    #banner3 img:hover {
+        transform: scale(1.05);
+        transition: all ease .5s;
+        box-shadow: 0px 0px 3px 5px rgba(137, 137, 137, 0.667);
+        z-index: 999;
+        position: relative;
+    }
+    /*--------------SAN PHAM BESTSELLER---------------*/
+    #bg_sp_bestseller {
+        margin-top: 30px;
+    }
+    #sp_bestseller_title {
+        width: 262.5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+    }
+    #sp_bestseller_title h4 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+    #sp_bestseller_title p {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 120px;
+    }
+}
+
+
+/*------MEDIUM PC-----*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*-------------banner--------------*/
+    #bgbanner {
+        background-color: #fff;
+    }
+    #banner {
+        position: relative;
+        z-index: 1;
+    }
+    #contentbox_muangay {
+        position: absolute;
+        z-index: 2;
+        top: 220px;
+        left: 100px;
+    }
+    #contentbox_muangay h1 {
+        font-size: 24px;
+    }
+    #btnmuangay {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        transition: all ease .5s;
+    }
+    #btnmuangay:hover {
+        background-color: #d30606;
+        transition: all ease .5s;
+    }
+    /*-------------loai san pham---------------*/
+    #loaisanpham {
+        margin-top: 50px;
+    }
+    #LoaiSP2,
+    #LoaiSP5 {
+        margin-bottom: 30px;
+    }
+    #LoaiSP1 img,
+    #LoaiSP2 img,
+    #LoaiSP3 img,
+    #LoaiSP4 img,
+    #LoaiSP5 img,
+    #LoaiSP6 img {
+        transition: all ease .5s;
+    }
+    #LoaiSP1 img:hover,
+    #LoaiSP2 img:hover,
+    #LoaiSP3 img:hover,
+    #LoaiSP4 img:hover,
+    #LoaiSP5 img:hover,
+    #LoaiSP6 img:hover {
+        transform: scale(1.05);
+        transition: all ease .5s;
+        box-shadow: 0px 0px 3px 5px rgba(137, 137, 137, 0.667);
+        z-index: 999;
+        position: relative;
+    }
+    /*----------------SAN PHAM MOI--------------------*/
+    #spmoi h1 {
+        height: 40px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #bgspm a {
+        text-decoration: none;
+    }
+    .sp_moi_box {
+        width: 212.5px;
+        padding: 0px !important;
+        margin: 15px;
+    }
+    .sanphammoi {
+        background-color: #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        transition: all ease .5s;
+    }
+    .sanphammoi h5 {
+        font-size: 12px;
+        color: black;
+    }
+    .news {
+        position: absolute;
+        z-index: 2;
+        top: 10px;
+        left: 15px;
+        background-color: #2b8842;
+        color: white;
+    }
+    .sanphammoi ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    .sanphammoi ul li {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        ;
+        color: #2b8842;
+    }
+    .sanphammoi ul li:hover {
+        color: red;
+    }
+    .sanphammoi p {
+        color: black;
+        clear: left;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+    .sanphammoi:hover {
+        transform: scale(1.05);
+        transition: all ease .5s;
+        box-shadow: 0px 0px 3px 5px rgba(137, 137, 137, 0.667);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+    }
+    /*--------------SALE----------------*/
+    #bgsale {
+        margin-top: 30px;
+        background-color: #fff;
+    }
+    #sale {
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #sale h1 {
+        width: 100%;
+        text-align: center;
+        color: #2b8842;
+    }
+    #sale ul {
+        padding: 0;
+        list-style-type: none;
+        position: relative;
+        left: 50%;
+        margin-left: -140px;
+    }
+    #sale ul li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+    #sale ul li p {
+        font-weight: bold;
+        border: 1px solid gray;
+        font-size: 15px;
+        float: left;
+        color: #2b8842;
+        padding: 5px 10px;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    #btnsale {
+        display: block;
+        width: 150px;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        position: relative;
+        left: 50%;
+        margin-left: -75px;
+    }
+    #btnsale:hover {
+        background-color: #d30606;
+        transition: all ease .5s;
+    }
+    #salebanner {
+        padding: 0;
+        margin: 0;
+    }
+    #salebanner img {
+        width: 100%;
+        height: 100%;
+    }
+    /*----------SAN PHAM HOT-----------*/
+    #bg_sp_hot {
+        margin-top: 30px;
+    }
+    #sp_hot_title {
+        position: relative;
+        width: 212.5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #sp_hot_title h3 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        font-size: 20px;
+    }
+    #sp_hot_title p {
+        width: 100%;
+        position: relative;
+        top: 120px;
+        text-align: center;
+    }
+    /*-----------BANNER QUANG CAO--------------*/
+    #banner_quangcao {
+        margin-top: 30px;
+    }
+    #banner2 {
+        margin-bottom: 30px;
+    }
+    #banner1 img,
+    #banner2 img,
+    #banner3 img {
+        transition: all ease .5s;
+    }
+    #banner1 img:hover,
+    #banner2 img:hover,
+    #banner3 img:hover {
+        transform: scale(1.05);
+        transition: all ease .5s;
+        box-shadow: 0px 0px 3px 5px rgba(137, 137, 137, 0.667);
+        z-index: 999;
+        position: relative;
+    }
+    /*--------------SAN PHAM BESTSELLER---------------*/
+    #bg_sp_bestseller {
+        margin-top: 30px;
+    }
+    #sp_bestseller_title {
+        width: 212.5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+    }
+    #sp_bestseller_title h4 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        font-size: 16px;
+    }
+    #sp_bestseller_title p {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 120px;
+    }
+}
+
+
+/*------TABLET-----*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* -------LOGO---------*/
+    #sm_xs_header {
+        margin: 0px;
+        padding: 0px;
+        background-color: #fff;
+    }
+    #sm_xs_logo {
+        height: 80px;
+    }
+    #sm_xs_logo img {
+        margin-top: 10px;
+        width: 350px;
+        height: 60px;
+        position: relative;
+        left: 50%;
+        margin-left: -175px;
+    }
+    /*   --------SEARCH_BOX SM XS -------  */
+    #search_box {
+        height: 40px;
+        margin-top: 30px;
+        border: 1px solid gray;
+        background-color: #fff;
+    }
+    #search_input{
+        width: 100%;
+        border: none;
+        height: 35px;
+        
+    }
+    #icons{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding-top: 8px;
+    }
+    /* Icons bars menu 
+    .menu_bars {
+        cursor: pointer;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 20px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-4px, 4px);
+        -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+        -moz-transform: rotate(-45deg) translate(-4px, 4px);
+        -ms-transform: rotate(-45deg) translate(-4px, 4px);
+        -o-transform: rotate(-45deg) translate(-4px, 4px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+        -webkit-transform: rotate(45deg) translate(-5px, -7px);
+        -moz-transform: rotate(45deg) translate(-5px, -7px);
+        -ms-transform: rotate(45deg) translate(-5px, -7px);
+        -o-transform: rotate(45deg) translate(-5px, -7px);
+    }*/
+    /*-------------banner--------------*/
+    #bgbanner {
+        background-color: #fff;
+        margin-top: 30px;
+    }
+    #banner {
+        position: relative;
+        z-index: 1;
+    }
+    #contentbox_muangay {
+        position: absolute;
+        z-index: 2;
+        top: 50px;
+        left: 60px;
+    }
+    #contentbox_muangay h1 {
+        font-size: 24px;
+    }
+    #btnmuangay {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        transition: all ease .5s;
+    }
+    #btnmuangay:hover {
+        background-color: #d30606;
+        transition: all ease .5s;
+    }
+    /*------ LOAI SAN PHAM ------*/
+    #loaisanpham {
+        margin-top: 50px;
+    }
+    #LoaiSP2 {
+        margin-bottom: 27px;
+        height: 220px;
+    }
+    #box2 {
+        margin-top: 30px;
+    }
+    /*----------------SAN PHAM MOI--------------------*/
+    #spmoi h1 {
+        height: 40px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #bgspm a {
+        text-decoration: none;
+    }
+    .sp_moi_box {
+        width: 220px;
+        padding: 0px !important;
+        margin: 15px;
+    }
+    .sanphammoi {
+        background-color: #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+    .sanphammoi h5 {
+        font-size: 12px;
+        color: black;
+    }
+    .news {
+        position: absolute;
+        z-index: 2;
+        top: 10px;
+        left: 15px;
+        background-color: #2b8842;
+        color: white;
+    }
+    .sanphammoi ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    .sanphammoi ul li {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        ;
+        color: #2b8842;
+    }
+    .sanphammoi p {
+        color: black;
+        clear: left;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*--------------SALE----------------*/
+    #bgsale {
+        margin-top: 30px;
+        background-color: #fff;
+    }
+    #sale {
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #sale h1 {
+        width: 100%;
+        text-align: center;
+        color: #2b8842;
+    }
+    #sale ul {
+        padding: 0;
+        list-style-type: none;
+        position: relative;
+        left: 50%;
+        margin-left: -144px;
+    }
+    #sale ul li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+    #sale ul li p {
+        font-weight: bold;
+        border: 1px solid gray;
+        font-size: 15px;
+        float: left;
+        color: #2b8842;
+        padding: 5px 10px;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    #btnsale {
+        display: block;
+        width: 150px;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        position: relative;
+        left: 50%;
+        margin-left: -75px;
+    }
+    #salebanner {
+        padding: 0;
+        margin: 0;
+    }
+    #salebanner img {
+        width: 100%;
+        height: 100%;
+    }
+    /*----------SAN PHAM HOT-----------*/
+    #bg_sp_hot {
+        margin-top: 30px;
+    }
+    #sp_hot_title h3 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        font-size: 36px;
+    }
+    #sp_hot_title p {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    /*-----------BANNER QUANG CAO--------------*/
+    #banner_quangcao {
+        margin-top: 30px;
+    }
+    #banner1 {
+        margin-bottom: 30px;
+    }
+    /*--------------SAN PHAM BESTSELLER---------------*/
+    #bg_sp_bestseller {
+        margin-top: 30px;
+    }
+    #sp_bestseller_title h4 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        font-size: 36px;
+    }
+    #sp_bestseller_title p {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+}
+/*------MOBILE-----*/
+
+@media (max-width: 767px) {
+    #sm_xs_header {
+        margin: 0px;
+        padding: 0px;
+        background-color: #fff;
+    }
+    #sm_xs_logo {
+        height: 60px;
+    }
+    #sm_xs_logo img {
+        margin-top: 10px;
+        width: 234px;
+        height: 40px;
+        position: relative;
+        left: 50%;
+        margin-left: -117px;
+    }
+    /*   --------SEARCH_BOX SM XS -------  */
+    #search_box {
+        height: 40px;
+        margin-top: 15px;
+        border: 1px solid gray;
+        background-color: #fff;
+    }
+    #search_input{
+        width: 100%;
+        border: none;
+        height: 35px;
+        
+    }
+    #icons{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding-top: 8px;
+        left: 50%;
+        position: relative;
+        margin-left: -10px;
+    }
+    /*-------------banner--------------*/
+    #bgbanner {
+        background-color: #fff;
+        margin-top: 15px;
+    }
+    #banner {
+        position: relative;
+        z-index: 1;
+    }
+    #contentbox_muangay {
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 10%;
+    }
+    #contentbox_muangay h1 {
+        font-size: 24px;
+    }
+    #btnmuangay {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        transition: all ease .5s;
+    }
+    /*------ LOAI SAN PHAM ------*/
+    #loaisanpham {
+        margin-top: 30px;
+    }
+    #LoaiSP3, #LoaiSP4{
+        margin-top: 30px;
+    }
+    #LoaiSP3 img, #LoaiSP4 img{
+        height: 395px;
+        width: 395px;
+    }
+    /*----------------SAN PHAM MOI--------------------*/
+    #spmoi h1 {
+        height: 40px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #bgspm a {
+        text-decoration: none;
+    }
+    .sp_moi_box {
+        width: 395px;
+        padding: 0px !important;
+        margin: 15px;
+    }
+    .sanphammoi {
+        background-color: #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+    .sanphammoi h5 {
+        font-size: 20px;
+        color: black;
+    }
+    .news {
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        left: 20px;
+        background-color: #2b8842;
+        color: white;
+        font-size: 16px;
+    }
+    .sanphammoi ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    .sanphammoi ul li {
+        display: block;
+        float: left;
+        margin-right: 10px;
+        color: #2b8842;
+        font-size: 16px;
+    }
+    .sanphammoi p {
+        color: black;
+        clear: left;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+     /*--------------SALE----------------*/
+     #bgsale {
+        margin-top: 30px;
+        background-color: #fff;
+    }
+    #sale {
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    #sale h1 {
+        width: 100%;
+        text-align: center;
+        color: #2b8842;
+    }
+    #sale ul {
+        padding: 0;
+        list-style-type: none;
+        position: relative;
+        left: 50%;
+        margin-left: -144px;
+    }
+    #sale ul li {
+        display: block;
+        float: left;
+        position: relative;
+    }
+    #sale ul li p {
+        font-weight: bold;
+        border: 1px solid gray;
+        font-size: 15px;
+        float: left;
+        color: #2b8842;
+        padding: 5px 10px;
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    #btnsale {
+        display: block;
+        width: 150px;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: #2b8842;
+        position: relative;
+        left: 50%;
+        margin-left: -75px;
+    }
+    #salebanner {
+        padding: 0;
+        margin: 0;
+    }
+    #salebanner img {
+        width: 100%;
+        height: 100%;
+    }
+    /*-------SAN PHAM HOT------*/
+    #bg_sp_hot {
+        margin-top: 30px;
+    }
+    #sp_hot_title h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 36px;
+    }
+    #sp_hot_title p {
+        width: 100%;
+        text-align: center;
+    }
+    /*-----------BANNER QUANG CAO--------------*/
+    #banner_quangcao {
+        margin-top: 50px;
+    }
+    /*--------------SAN PHAM BESTSELLER---------------*/
+    #bg_sp_bestseller {
+        margin-top: 30px;
+    }
+    #sp_bestseller_title h4 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        font-size: 36px;
+    }
+    #sp_bestseller_title p {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    /* Icons bars menu */
+    /*
+    .menu_bars {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 20px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-4px, 4px);
+        -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+        -moz-transform: rotate(-45deg) translate(-4px, 4px);
+        -ms-transform: rotate(-45deg) translate(-4px, 4px);
+        -o-transform: rotate(-45deg) translate(-4px, 4px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+        -webkit-transform: rotate(45deg) translate(-5px, -7px);
+        -moz-transform: rotate(45deg) translate(-5px, -7px);
+        -ms-transform: rotate(45deg) translate(-5px, -7px);
+        -o-transform: rotate(45deg) translate(-5px, -7px);
+    }*/
+}

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/home.js"></script>
+
+    <title>Homepage</title>
+</head>
+
+<body>
+    <!-------NAVIGATION------>
+    <div class="container-fluid" id="bgheader">
+        <div class="container" id="navigation">
+            <div class="row">
+                <div class="col-lg-3 col-md-2 hidden-sm hidden-xs" id="logo">
+                    <a href="">
+                        <img class="img-responsive" src="imgs/Logo/Logo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-9
+                                col-md-10
+                                hidden-sm hidden-xs" id="navi">
+                    <ul>
+                        <li><a href=""><i class="fas fa-bars" id="bars"></i></a></li>
+                        <li><a href=""><i class="fas fa-shopping-bag" id="shopping"></i></a></li>
+                        <li><a href=""><i class="fas fa-search" id="search"></i></a></li>
+                        <li><a href="">LIÊN HỆ</a></li>
+                        <li><a href="">THƯƠNG HIỆU</a></li>
+                        <li><a href="">TIN TỨC</a></li>
+                        <li><a href="">SẢN PHẨM</a></li>
+                        <li><a href="">TRANG CHỦ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------Tablet + Mobile header------------->
+    <div class="container-fluid" id="sm_xs_header">
+        <div class="col-sm-12 col-xs-12 hidden-lg hidden-md" id="sm_xs_logo">
+            <a href="">
+                <img src="imgs/Logo/Logo.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="container" id="sm_xs_navi">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 hidden-lg hidden-md" id="search_box">
+                <div class="row">
+                    <div class="col-sm-11 col-xs-10">
+                        <input type="text" placeholder="Nhap san pham tim kiem..." id="search_input">
+                    </div>
+                    <a href="" class="col-sm-1 col-xs-2">
+                        <span><i class="fas fa-search" id="icons"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-------BANNER SLIDE------->
+    <div class="container-fluid" id="bgbanner">
+        <div class="container" id="banner">
+            <div id="contentbox_muangay">
+                <h1>MỸ PHẨM</h1>
+                <p>Hoàn toàn từ thiên nhiên</p>
+                <button type="button" class="btn btn-default" id="btnmuangay">MUA NGAY</button>
+            </div>
+            <div id="MyBannerHome" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#MyBannerHome" data-slide-to="0" class=""></li>
+                    <li data-target="#MyBannerHome" data-slide-to="1" class=""></li>
+                    <li data-target="#MyBannerHome" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img alt="First slide" src="imgs/Home/Banner/1.jpg">
+                    </div>
+                    <div class="item">
+                        <img alt="First slide" src="imgs/Home/Banner/2.jpg">
+                    </div>
+                    <div class="item active">
+                        <img alt="First slide" src="imgs/Home/Banner/3.jpg">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#MyBannerHome" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#MyBannerHome" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <!-- END CAROUSEL -->
+        </div>
+    </div>
+    <!-------LOAI SAN PHAM------>
+    <div class="container" id="loaisanpham">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs" id="LoaiSP1">
+                <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/1.png" alt=""></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12" id="box1">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="LoaiSP2">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/2.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="LoaiSP3">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/3.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="LoaiSP4">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs" id="box2">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12" id="LoaiSP5">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/3.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-12 col-md-12" id="LoaiSP6">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----- SAN PHAM MOI ----- -->
+    <div class="container" id="bgspm">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="spmoi">
+                <h1>SẢN PHẨM MỚI</h1>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 hidden-sm hidden-xs sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 hidden-sm hidden-xs sp_moi_box">
+                <a href="">
+                    <div class="sanphammoi">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h4><span class="label label-default news">New</span></h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h5>Kem chống nắng SUNBLOCK</h5>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <p>99.000VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---------SALE--------->
+    <div class="container-fluid" id="bgsale">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="sale">
+                    <h1>Sale - 20% Off</h1>
+                    <ul>
+                        <li>
+                            <p id="ngay"></p>
+                        </li>
+                        <li>
+                            <p id="gio"></p>
+                        </li>
+                        <li>
+                            <p id="phut"></p>
+                        </li>
+                        <li>
+                            <p id="giay"></p>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <button type="button" class="btn btn-default" id="btnsale">MUA NGAY</button>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="salebanner">
+                    <img src="imgs/Home/LoaiSP/LargePC/2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SAN PHAM HOT -->
+    <div class="container" id="bg_sp_hot">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="sp_hot_title">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3>SẢN PHẨM HOT</h3>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p>Các sản phẩm nổi bật<br>được các bạn trẻ ưa thích</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                    <a href="">
+                        <div class="sanphammoi">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h4><span class="label label-default news">New</span></h4>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5>Kem chống nắng SUNBLOCK</h5>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>99.000VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                    <a href="">
+                        <div class="sanphammoi">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h4><span class="label label-default news">New</span></h4>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5>Kem chống nắng SUNBLOCK</h5>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>99.000VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                    <a href="">
+                        <div class="sanphammoi">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h4><span class="label label-default news">New</span></h4>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5>Kem chống nắng SUNBLOCK</h5>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>99.000VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!---------BANNER QUANG CAO--------->
+    <div class="container" id="banner_quangcao">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="banner1">
+                <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/quangcao1.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 hidden-xs">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6" id="banner2">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/quangcao2.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-6" id="banner3">
+                        <a href=""><img class="img-responsive" src="imgs/Home/LoaiSP/LargePC/quangcao3.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------SAN PHAM BAN CHAY-------------->
+    <div class="container" id="bg_sp_bestseller">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="sp_bestseller_title">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <h4>SẢN PHẨM BÁN CHẠY</h4>
+                    </div>
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <p>Các sản phẩm nổi bật<br>được các bạn trẻ ưa thích</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                    <a href="">
+                        <div class="sanphammoi">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h4><span class="label label-default news">New</span></h4>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5>Kem chống nắng SUNBLOCK</h5>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>99.000VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                    <a href="">
+                        <div class="sanphammoi">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h4><span class="label label-default news">New</span></h4>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5>Kem chống nắng SUNBLOCK</h5>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>99.000VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 sp_moi_box">
+                    <a href="">
+                        <div class="sanphammoi">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h4><span class="label label-default news">New</span></h4>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="imgs/Home/New Products/KemChongNang1.jpg" alt="">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5>Kem chống nắng SUNBLOCK</h5>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>99.000VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--THUONG HIEU-->
+
+    <hr>
+
+    <div class="container" id="thuonghieu">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6 tenthuonghieu">
+                <img class="img-responsive" src="imgs/Pics/Home/Band/shiseido.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6 tenthuonghieu">
+                <img class="img-responsive" src="imgs/Pics/Home/Band/shiseido.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs tenthuonghieu">
+                <img class="img-responsive" src="imgs/Pics/Home/Band/shiseido.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs tenthuonghieu">
+                <img class="img-responsive" src="imgs/Pics/Home/Band/shiseido.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs tenthuonghieu">
+                <img class="img-responsive" src="imgs/Pics/Home/Band/shiseido.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs tenthuonghieu">
+                <img class="img-responsive" src="imgs/Pics/Home/Band/shiseido.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--CONTACT US-->
+    <div class="container-fluid" id="bg_contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="contact">
+                    <img src="imgs/Logo/Logo.jpg" alt="">
+                    <hr align="left" width="150px">
+                    <p> Address: 791/2 Lê Trọng Tấn, P.BHH, Q.Bình Tân, Tp.HCM<br> Phone: 0989.263.877<br> Email: nvnam1507@gmail.com<br> Facebook: wwww.fb.com/nvnamrob<br> Instagram: wwww.instagram.com/hier_namnguyen
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="chinhsach">
+                    <h2>CHÍNH SÁCH</h2>
+                    <hr align="left" width="150px">
+                    <p>
+                        Vận chuyển<br> Bảo mật
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="dangky">
+                    <h2>ĐĂNG KÝ</h2>
+                    <hr align="left" width="150px">
+                    <input type="text" placeholder="Nhập địa chỉ email..." id="input" size="30">
+                    <button type="button" class="btn btn-default" id="btn_dangky">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------FOOTER------->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p id="footer">Copyright@2019 by Minh Phuong Cosmestic. All right reserved. Designed by Nam Nguyen</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
